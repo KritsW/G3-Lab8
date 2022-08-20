@@ -21,6 +21,7 @@ public class ScanXan {
 
             while (s.hasNext()) {
                 System.out.println(s.next());
+                //s.next();
             }
         } finally {
             if (s != null) {

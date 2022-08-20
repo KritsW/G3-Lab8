@@ -25,6 +25,7 @@ public class CopyLines {
             outputStream = new PrintWriter(new FileWriter("characteroutput.txt")); //ถ้าให้ไปอยู่ที่ files ใช้ files/characteroutput.txt
 
             String l;
+            
             while ((l = inputStream.readLine()) != null) {
                 outputStream.println(l);
                 System.out.println(""+l);
